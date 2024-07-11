@@ -190,7 +190,7 @@ async function renderFiveDay() {
     forecastDiv.classList.add("border", "w-25", "h-25", "d-inline-block");
 
     let day = document.createElement("h1");
-    day.textContent = `${weekday[checkDay(i + 1)]}`;
+    day.textContent = `${weekday[checkDay(i)]}`;
 
     let localTimeofDay = document.createElement("h4");
     localTimeofDay.textContent = `${localTime}`;

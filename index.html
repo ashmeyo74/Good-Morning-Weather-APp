@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>The Weather Dashboard</title>
+    <title>Good Morning Weather</title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -24,16 +24,16 @@
         <div class="sidebar-heading border-bottom bg-light"></div>
         <div class="list-group list-group-flush">
           <form class="form-control border-bottom bg-white" id="citySearch">
-            <p class="p-1 text-center">SEARCH FOR YOUR CITY:</p>
+            <p class="p-1 text-center text-primary ">SEARCH FOR YOUR CITY</p>
 
             <input type="text" class="form-control" id="citySubmit" />
             <div class="d-flex justify-content-center">
               <input type="submit" class="btn btn-primary mt-2" />
             </div>
           </form>
-          <div id="sidebar">
+          <div id="sidebar" class="sidebar">
 
-            
+
           </div>
 
         </div>
@@ -45,17 +45,17 @@
           class="navbar navbar-expand-lg navbar-light bg-light border-bottom p-3"
         >
           <div class="container-fluid">
-            <h1 class="text-center">Your Weather Dashboard</h1>
+            <h1 class="text-right">The <p class="h2">Good Morning</p> Weather</h1>
           </div>
         </nav>
         <!-- Page content-->
         <div class="container-fluid" id="containerMain">
-          <div class="container-fluid border my-3">
+          <div class="container-fluid border my-3 d-flex justify-content-center">
             <div class="row py-3 px-3" id="cityDiv">
             </div>
           </div>
           <div class="container-fluid text-center" id="forecastContainer">
-          <h1 class="mt-4">5-Day Forecast:</h1>
+          <h1 class="mt-4">5-Day Forecast</h1>
           <div class=" d-flex justify-content-center" id="fiveday">
 
             </div>
