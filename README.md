@@ -9,7 +9,7 @@ Comments have been left to show code done in-detail. By separating each section 
 N/A
 
 ## Usage
-The deployed portfolio webpage can be accessed via Github Pages by following the provided link: [https://ashmeyo74.github.io/weatherApp/](https://ashmeyo74.github.io/weatherApp/) 
+The deployed portfolio webpage can be accessed via Github Pages by following the provided link: [https://ashmeyo74.github.io/Good-Morning-Weather-APp/](https://ashmeyo74.github.io/Good-Morning-Weather-APp/) 
 
 **In order to search up the weather informationfor a new city, the user must do the following steps:**
 * Enter city name in search bar, below "Search for your city".
