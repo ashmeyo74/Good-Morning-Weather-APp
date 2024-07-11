@@ -1,4 +1,4 @@
-# Custom Marketing Blog
+# Good Morning Weather App
 
 ## Description
 The purpose of the 'Good Morning' Weather app is to create a five-day weather program that displays a weather forecast dependant on the user's search input. When entering results, the user can see them appear on the left sidebar and bring the previous cities up on click.
